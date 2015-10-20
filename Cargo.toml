@@ -1,0 +1,13 @@
+[package]
+name = "pldict"
+version = "0.1.0"
+authors = ["Vsevolod Velichko <torkvema@gmail.com>"]
+license = "MIT"
+
+[dependencies]
+iron = "0.2.2"
+router = "0.0.15"
+rustc-serialize = "0.3.16"
+
+[dependencies.xdxf]
+git = "https://github.com/torkve/xdxf-rust/"
